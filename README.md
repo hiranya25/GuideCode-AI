@@ -1,94 +1,20 @@
-# GuideCode AI – Frontend
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-GuideCode AI is an educational AI web application that helps students
-**learn how to think through coding problems instead of copying solutions**.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1YVkF8swneGsEHu5gRlTRA195LSnEdM4z
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-## In Progess
----
-
-## ✨ Features
-
-- React functional components with hooks
-- Clean, modular folder structure
-- Responsive and minimal UI
-- Coding problem input interface
-- Step-by-step AI guidance display
-- Optional code review (no corrected code)
-- Backend-connected (AI logic not in frontend)
-
----
-
-## 🧠 Core Principle
-
-GuideCode AI **never provides full code solutions**.  
-It only guides problem-solving thinking using:
-- Conceptual explanations
-- Strategies
-- Hints
-- Edge cases
-- Time & space complexity discussion
-
----
-
-## 🧱 Tech Stack
-
-- React 18
-- React Router DOM
-- JavaScript (ES6+)
-
----
-
-## 📁 Project Structure
-
-```text
-guidecode-ai-frontend/
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── components/
-│   │   ├── ai/
-│   │   │   ├── AIResponse.jsx
-│   │   │   └── CodeReview.jsx
-│   │   ├── common/
-│   │   │   └── LoadingSpinner.jsx
-│   │   └── layout/
-│   │       ├── Navbar.jsx
-│   │       ├── Footer.jsx
-│   │       └── Layout.jsx
-│   │
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── TryNow.jsx
-│   │   └── WhyGuideCode.jsx
-│   │
-│   ├── services/
-│   │   └── aiService.js
-│   │
-│   ├── App.jsx
-│   ├── index.js
-│   └── index.css
-│
-├── package.json
-├── .gitignore
-└── README.md
-
-```
-
----
-
-**Expected Response**
-```json
-{
-  "understanding": "Conceptual explanation of the problem",
-  "strategy": "High-level approach without code",
-  "hints": ["Hint 1", "Hint 2"],
-  "edgeCases": "Potential edge cases to consider",
-  "complexity": "Time and space complexity discussion"
-}
-
-```
----
-
-**GuideCode AI — Learn how to think, not what to copy.**
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

@@ -1,0 +1,8 @@
+{
+  "name": "GuideCode AI - Problem-Solving Mentor",
+  "description": "An AI coding mentor that guides you step-by-step without giving away the solution. Learn how to think, not what to copy.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
