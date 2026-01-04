@@ -3,8 +3,6 @@
 GuideCode AI is an educational AI web application that helps students
 **learn how to think through coding problems instead of copying solutions**.
 
-This repository contains the **React.js frontend only**.
-
 
 ## In Progess
 ---
