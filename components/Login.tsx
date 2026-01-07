@@ -104,10 +104,10 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
             <span className="text-white font-bold text-3xl">G</span>
           </div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-            {isSignUp ? 'Create Account' : 'Welcome back'}
+            {isSignUp ? 'Create Account' : 'Welcome to GuideCode-AI'}
           </h1>
           <p className="text-slate-500 mt-2">
-            {isSignUp ? 'Join the community of logical thinkers' : 'Continue your mentoring sessions'}
+            {isSignUp ? 'Join the community of logical thinkers' : 'Start your mentoring sessions'}
           </p>
         </div>
 
